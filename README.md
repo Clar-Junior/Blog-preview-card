@@ -30,7 +30,7 @@ Desktop
 ![Desktop](./preview/desktop.png)
 
 Mobile
-<img src="./preview/mobile.png" alt="Mobile" width="375" height="800">
+<div><img src="./preview/mobile.png" alt="Mobile" width="375" height="800"></div>
 
 ### Links
 

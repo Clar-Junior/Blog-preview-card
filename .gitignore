@@ -6,3 +6,4 @@ node_modules/
 # ignore some Markdown files
 README-template.md
 style-guide.md
+README-info.md
