@@ -1,23 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
+@import "tailwindcss";
+
+/* importar fonte local */
+@font-face {
+  font-family: 'figtree'; /* Este nome deve ser o valor da variável */
+  src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root{
-  --yellow: "#F4D04E",
-  --gray-950: "#111111",
-  --gray-500: "#6B6B6B",
-  --white: "#FFFFFF",
-  --figtree-font: "Figtree", sans-serif;
+  --yellow: #F4D04E;
+  --gray-950: #111111;
+  --gray-500: #6B6B6B;
+  --black: #000;
+  --white: #FFF;
+  --figtree: 'figtree', sans-serif;
 }
 
-*, *::after, *::before{
-  padding: 0;
-  margin: 0;
-}
 
 html {
   color-scheme: light dark;
-  font-family: var(--figtree);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+  font-family: system-ui;
+  scrollbar-width: none;  
 }
+
+body {
+  font-family: var(--figtree); /* Chamando a variável */
+}
+

@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link type="text/css" href="./style.css"
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcel Vanilla App</title>
+    <link rel="stylesheet" href="../dist/output.css">
+  </head>
+  <body class="flex items-center justify-center w-full h-[100vh] bg-[var(--yellow)] text-[var(--black)] ">
+    
+    <!-- blog card -->
+    <main class="w-[327] h-fit flex items-start justify-center bg-[var(--white)] rounded-[20px] border-black border-[1] shadow-[8px_8px_0px_0px_rgba(0,0,0,0)] shadow-black">
+      
+      <!-- all content -->
+      <div class="flex flex-col p-6 gap-6">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+        <!-- image -->
+         <div>
+            <img class="rounded-[10]" src="../assets/images/illustration-article.svg" alt="illustration-article">
+         </div>
 
-  Learning
+        <!-- text -->
+         <div class="flex flex-col gap-3">
 
-  Published 21 Dec 2023
+          <!-- text bg-yellow -->
+          <div>
+            <span class="text-xs bg-[var(--yellow)] text-[var(--black)] font-bold rounded-[4] px-3 py-1">Learning</span>
+          </div>
 
-  HTML & CSS foundations
+          <!-- text published data -->
+           <div>
+            <p class="text-xs">Published 21 Dec 2023</p>
+           </div>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+           <!-- text header -->
+            <div>
+              <span class="font-extrabold text-xl">HTML & CSS foundations</span>
+            </div>
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+            <!-- main text -->
+             <div>
+              <p class="text-sm text-[var(--gray-500)]">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+             </div>
+         </div>
+
+        <!-- avatar -->
+         <div class="flex gap-3 items-center justify-start">
+          <img class="w-8 h-8" src="../assets/images/image-avatar.webp" alt="image-avatar">
+          <span class="text-sm font-bold">Greg Hooper</span>
+         </div>
+      </div>
+    </main>
+  </body>
 </html>

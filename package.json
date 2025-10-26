@@ -4,11 +4,14 @@
   "version": "1.0.0",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel --port 3000",
-    "watch": "parcel watch",
+    "start": "parcel",
+    "watch": "npx @tailwindcss/cli -i ./src/style.css -o ./dist/output.css --watch",
     "build": "parcel build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  },
   "devDependencies": {
     "parcel": "^2.14.0"
   }
