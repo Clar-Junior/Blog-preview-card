@@ -1,8 +1,35 @@
+@import "tailwindcss";
+
+:root{
+  --yellow: #F4D04E;
+  --black: #000;
+  --white: #FFF;
+}
+
 html {
   color-scheme: light dark;
   font-family: system-ui;
+  scrollbar-width: none;  
+}
+
+body{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--yellow);
+  color: var(--black);
 }
+
+main{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 384px;
+  height: 522px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: var(--white);
+}
+
