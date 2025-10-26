@@ -6,9 +6,49 @@
     <title>Parcel Vanilla App</title>
     <link rel="stylesheet" href="../dist/output.css">
   </head>
-  <body>
-    <main>
-      <div class="blog-card">dkfsdjfl</div>
+  <body class="flex items-center justify-center w-full h-[100vh] bg-[var(--yellow)] text-[var(--black)] ">
+    
+    <!-- blog card -->
+    <main class="w-[327] h-fit flex items-start justify-center bg-[var(--white)] rounded-[20px] border-black border-[1] shadow-[8px_8px_0px_0px_rgba(0,0,0,0)] shadow-black">
+      
+      <!-- all content -->
+      <div class="flex flex-col p-6 gap-6">
+
+        <!-- image -->
+         <div>
+            <img class="rounded-[10]" src="../assets/images/illustration-article.svg" alt="illustration-article">
+         </div>
+
+        <!-- text -->
+         <div class="flex flex-col gap-3">
+
+          <!-- text bg-yellow -->
+          <div>
+            <span class="text-xs bg-[var(--yellow)] text-[var(--black)] font-bold rounded-[4] px-3 py-1">Learning</span>
+          </div>
+
+          <!-- text published data -->
+           <div>
+            <p class="text-xs">Published 21 Dec 2023</p>
+           </div>
+
+           <!-- text header -->
+            <div>
+              <span class="font-extrabold text-xl">HTML & CSS foundations</span>
+            </div>
+
+            <!-- main text -->
+             <div>
+              <p class="text-sm text-[var(--gray-500)]">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+             </div>
+         </div>
+
+        <!-- avatar -->
+         <div class="flex gap-3 items-center justify-start">
+          <img class="w-8 h-8" src="../assets/images/image-avatar.webp" alt="image-avatar">
+          <span class="text-sm font-bold">Greg Hooper</span>
+         </div>
+      </div>
     </main>
   </body>
 </html>
