@@ -1,0 +1,9 @@
+.parcel-cache/
+dist/
+node_modules/
+.vscode/
+
+# ignore some Markdown files
+README-template.md
+style-guide.md
+README-info.md

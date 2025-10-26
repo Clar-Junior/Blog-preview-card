@@ -1,0 +1,19 @@
+@import "https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap";
+:root {
+  --yellow: "#F4D04E", --gray-950: "#111111", --gray-500: "#6B6B6B", --white: "#FFFFFF", --figtree-font: "Figtree", sans-serif;
+}
+
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: light dark;
+  font-family: var(--figtree);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+/*# sourceMappingURL=style.2cdaf7bc.css.map */
